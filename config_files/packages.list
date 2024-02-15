@@ -6,3 +6,5 @@ curl
 wget
 tmux
 zsh
+python3
+python3-pip
