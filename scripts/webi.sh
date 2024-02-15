@@ -4,4 +4,4 @@
 curl -sS https://webi.sh/webi | sh
 
 # Install Webi Packages
-xargs webi < webi_packages.list
+xargs webi < ../config_files/webi_packages.list
