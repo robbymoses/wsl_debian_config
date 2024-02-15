@@ -1,0 +1,8 @@
+ninja-build
+gettext
+cmake
+unzip
+curl
+wget
+tmux
+zsh
