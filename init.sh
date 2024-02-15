@@ -28,7 +28,7 @@ chsh -s /bin/zsh ${USER}
 
 # Modify wsl.conf
 if ! test -f /etc/wsl.conf; then
-	sudo mv ./config_files/wsl.conf /etc/wsl.conf
+	sudo cp ./config_files/wsl.conf /etc/wsl.conf
 fi
 
 # Shutdown WSL
