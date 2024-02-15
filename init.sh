@@ -2,7 +2,7 @@
 
 # Install Apt-Packages
 echo <packages.list
-xargs sudo apt-get install -y < packages.list
+xargs sudo apt-get install -y < ./config_files/packages.list
 
 # Setup Git Defaults
 echo "Checking gitconfig"
