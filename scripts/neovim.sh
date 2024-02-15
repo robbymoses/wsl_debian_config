@@ -10,3 +10,5 @@ make CMAKE_BUILD_TYPE=Release
 sudo make install
 
 cd ~/wsl_debian_config
+
+rm -rf ~/neovim
