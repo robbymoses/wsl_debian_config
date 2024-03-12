@@ -13,3 +13,9 @@ if test -d ~/.config/nvim; then
 	rm -rf ~/.config/nvim
 fi
 ln -s ~/custom_dot_files/nvim ~/.config/nvim
+
+# TMUX
+if test -d ~/.tmux.conf; then
+	rm ~/.tmux.conf
+fi
+ln -s ~/custom_dot_files/tmux/tmux.conf ~/.tmux.conf
